@@ -1,0 +1,204 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    
+}
+.name a{
+    text-decoration: none;
+    color: black;
+    text-shadow: 1px 1px red;
+    font-weight: 600;
+
+}
+header{
+    background:gold;
+    border: 2px solid darkgreen;
+}
+.menu {
+    width: 900px;
+    margin: auto;     ;
+    color: black;
+    
+
+}
+ul li{
+    list-style: none;
+}
+ul li a{
+    text-decoration: none;
+}
+ul{
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+}
+.container li a{
+    padding-left: 20px;
+    padding-right: 20px;
+ 
+}
+.container{
+    display: flex;
+    max-width: 1000px;
+    margin-top: 30px;
+}
+.container li a {
+    color: black;
+}
+.btn{
+    display: flex;
+    float: right;
+    margin-top: 50px;
+    text-align: inherit;
+   
+
+}
+
+body{
+    background-image: url(Image/nen.jpg);
+}
+.container li:nth-child(4) button{
+    cursor: pointer;
+    display: none;
+}
+.btn li button{
+    cursor: pointer;
+}
+.list li a img{
+    width: 20px;
+    height: auto;
+    
+}
+.list li :hover>a{
+    border: 1px #43434343;
+}
+.list li {
+    float: left;
+    display: block;
+    padding: 15px 0px;
+    width: 100px;
+  
+    border: 1px solid #43434343;
+    position: absolute;
+    flex-direction: column;
+    background: hotpink;
+    display: none;
+}
+.container li:nth-child(2) {
+    position: relative;
+}
+
+.container li:nth-child(2):hover >.list li {
+            display: block;
+}
+.list li:hover a{
+    color: yellow;
+    display: block;
+}
+.container li:nth-child(4) button{
+    position: relative;
+    display: block;
+    top: auto;
+}
+ul.products li .product-top{
+    position: relative;
+    overflow: hidden;
+   
+}
+ul.products li:hover a.buy-now{
+    bottom: 0px;
+  
+  
+
+}
+
+ul.products li:hover .product-top .product-themb img{
+    filter: opacity(80%);
+}
+
+ul.products li .product-top a.buy-now{
+text-transform: uppercase;
+text-decoration: none;
+text-align: center;
+display: block;
+background-color: #446068;
+color: #fff;
+padding: 10px 0px;
+bottom: -36px;
+width: 100%;
+
+
+}
+ul.products li .product-top .product-themb img{
+display: block;
+width: 300px;
+margin: auto;
+padding: 2px;
+background: white;
+
+
+}
+.products{
+    margin-top: 200px;
+}
+ul.products li .product-top .product-themb{
+display: block;
+}
+
+ul.products{
+display: flex;
+flex-wrap: wrap;
+justify-content: space-between;
+
+}
+ul.products li{
+flex-basis: 25%;
+padding-left: 15px;
+padding-right: 15px;
+margin-top: 10px;
+margin-bottom: 10px;
+box-sizing: border-box;
+}
+ul.products li .product-info{
+padding: 15px 0px;
+}
+ul.products li a{
+text-decoration: none;
+color: black;
+text-transform: uppercase;
+}
+ul.products li .product-info a{
+display: block;
+
+
+}
+ul.products li .product-info .product-name{
+        text-align: left;
+}
+ul.products li .product-info a{
+border: 1px solid lightyellow;
+background: chartreuse;
+}
+
+ul.products li .product-info a.product-cat{
+        font-size: 15px;
+        font-weight: 600;
+        text-transform: uppercase;
+        color: black;
+        padding: 3px 0px;
+
+}
+ul.products li .product-info a.product-name{
+color:black;
+font-weight: 600;
+padding: 3px 0px;
+}
+ul.products li .product-info .product-price{
+color: black;
+padding: 2px 0px;
+font-weight: 500;
+background-color: darkcyan;
+}
+
+
