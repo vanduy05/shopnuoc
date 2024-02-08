@@ -201,4 +201,13 @@ font-weight: 500;
 background-color: darkcyan;
 }
 
+@media all and (max-width: 550px) {
+    .main{
+        flex-direction: column;
+    }
+    main{
+        padding:5em 0 5em;
+    }
+}
+
 
